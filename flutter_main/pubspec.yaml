@@ -10,6 +10,9 @@ environment:
   sdk: ^3.5.4
 
 
+flutter: 
+  uses-material-design: true
+
 dependencies:
   flutter:
     sdk: flutter
