@@ -75,7 +75,7 @@ class _DataPageState extends State<DataPage> {
           dotData: const FlDotData(show: false),
         ),
       ],
-      titlesData: FlTitlesData(show: false),
+      titlesData: const FlTitlesData(show: false),
       gridData: const FlGridData(show: false),
       borderData: FlBorderData(show: false),
     );
