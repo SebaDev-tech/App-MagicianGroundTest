@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Bluetooth Conexión Cimple',
+      title: 'Bluetooth Conexión Simple',
       theme: ThemeData(primarySwatch: Colors.green),
       home: const BluetoothPage(),
     );
