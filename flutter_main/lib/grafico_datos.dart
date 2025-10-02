@@ -33,7 +33,7 @@ class _DataPageState extends State<DataPage> {
           await characteristic.setNotifyValue(true);
           characteristic.value.listen((value) {
             final data = String.fromCharCodes(value);
-            print("📡 Recibido: $data");
+            print("Recibido: $data");
             _processData(data);
           });
         }
@@ -60,7 +60,7 @@ class _DataPageState extends State<DataPage> {
         }
       });
     } catch (e) {
-      print("⚠️ Error al procesar datos: $e");
+      print("Error al procesar datos: $e");
     }
   }
 
